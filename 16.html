@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-digital 3기</title>
+    <!--외부 스크립트 가져오기-->
+   <script src="./scripts/16.js"></script>
+   <link rel="stylesheet" href="./styles/13.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <!--pico.css framework-->
+
+</head>
+<!-- 주사위 게임 ; 랜덤으로 생성된 주사위 번호를 맞추기-->
+    
+<body>
+    <main class="container">
+        <article>
+            <header>
+
+                <h1>주사위 게임</h1>
+                <div id="hdiv"></div>
+
+            </header>
+            <h2 id="h2id" class="h2class"><img></h2>
+            <footer>
+                <form>
+                    <fieldset>
+                        <div class="grid"> <!--gird 설정-->
+                        <legend>숫자 선택</legend>
+                        <label for="r1"><!--radio 버튼 생성 ; name 같은 걸로 해야 선택 하나만 됨 -->
+                            <input type="radio" id="r1" name="num" value="1">1
+                        </label>
+                        <label for="r2">
+                            <input type="radio" id="r2" name="num" value="2">
+                            2
+                        </label>
+                        <label for="r3">
+                            <input type="radio" id="r3" name="num" value="3">
+                            3
+                        </label>
+                        <label for="r4">
+                            <input type="radio" id="r4" name="num" value="4" >
+                            4
+                        </label>
+                        <label for="r5">
+                            <input type="radio" id="r5" name="num" value="5" >
+                            5
+                        </label>
+                        <label for="r6">
+                            <input type="radio" id="r6" name="num" value="6" >
+                            6
+                        </label>
+                    </div>
+                    </fieldset>
+                    <div class="grid">
+                    <button onclick="show();">확인</button>
+                    <button type="reset">취소</button>
+                </div>
+                </form>
+            </footer>
+        </article>
+    </main>
+    <!-- <script>//js 위치 아무데나 해도 됨 header 안/ body 밑 ;내부스크립트
+        function show(){
+            alert("안녕하세요.")
+        }//function(key word) show()(함수){ 실행문 }
+    
+    </script> -->
+</body>
+
+</html>

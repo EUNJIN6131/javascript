@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- pico CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="styles/13.css">
+    <script src="./scripts/14.js"></script>
+
+
+    <title>K-digital 3기 김은진</title>
+</head>
+<!-- 자바스크립트 위치 -->
+
+<body>
+    <!-- 자바스크립트 위치 -->
+    <main class="container">
+        <!-- 컨테이너 웹페이지중간정렬 -->
+        <article>
+            <header>
+                <h1>주사위게임</h1>
+                <div id="hdiv"></div>
+            </header>
+            <h2 id="h2Id" class="h2Class"><img></h2>
+            <footer>
+                <form>
+                    <fieldset>
+                        <h2>
+                            <legend>숫자선택</legend>
+                        </h2>
+                        <!-- radio선택 -->
+
+                        <div class="grid">
+
+                            <label for="r1">
+                                <input type="radio" id="r1" name="num" value="1">1
+                            </label>
+                            <label for="r2">
+                                <input type="radio" id="r2" name="num" value="2">2
+                            </label>
+                            <label for="r3">
+                                <input type="radio" id="r3" name="num" value="3">3
+                            </label>
+                            <label for="r4">
+                                <input type="radio" id="r4" name="num" value="4">4
+                            </label>
+                            <label for="r5">
+                                <input type="radio" id="r5" name="num" value="5">5
+                            </label>
+                            <label for="r6">
+                                <input type="radio" id="r6" name="num" value="6">6
+                            </label>
+                        </div>
+                    </fieldset>
+                    <div class="grid">
+                        <button id="b1">확인</button>
+                        <button reset="reset();">취소</button>
+                    </div>
+                    <!-- <button onclick="show();">확인</button> -->
+                </form>
+            </footer>
+        </article>
+    </main>
+
+</body>
+
+
+
+</html>
