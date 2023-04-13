@@ -13,6 +13,10 @@
 
 //addevent 이벤트 추가하는거
 //addevent~~~ 읽어오기 id 가져오기 쿼리는 한번만
+//selector - selectorAll all은 배열 1개이상  그냥 selector는 한개
+//값을 갖고 싶을땐 .innerHTML 이나 .textcontent를 가지고 값을 가지고 올 수 있다.
+//가지고 올 수 있지만 만들어 올 수도 있다.
+//consol.log는 내가 원하는 값이 들어가있을 때 확인용으로 찍어보는 것임.
 document.addEventListener("DOMContentLoaded", () => {
     const sel1 = document.querySelector('#sel1');  //가져오는 위치
     const sel2 = document.querySelector('#sel2');
