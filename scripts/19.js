@@ -12,9 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //reset기능 구현
 
-    btReset.addEventListener('click', ()=>{
+    btReset.addEventListener('click', (event) => {
+        event.preventDefault();
         txt1.value = '';
-        arr = [] ;
+        arr = [];
     })
 
 
@@ -38,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     break;
             }
             console.log(arr)
-            
+
             txt1.value = arr.join(',');
             // txt1.value = arr.toString();
 
