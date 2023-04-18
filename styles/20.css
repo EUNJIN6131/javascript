@@ -1,3 +1,15 @@
+header {
+    display: block;
+    align-items: center;
+    text-align: left;
+}
+
+h2 {
+    color: red;
+    font-size: 20px;
+
+}
+
 #d1 {
     display:block;
     align-items: center;
@@ -22,8 +34,4 @@
     width: 100px;
     
 
-}
-
-h1 {
-    text-align: center;
 }
